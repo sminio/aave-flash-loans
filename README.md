@@ -17,17 +17,11 @@
 
 # Deploy to a Local Ganache Instance That Mirrors the Mainnet
 
-1. Install and Run the [Ganache CLI](https://github.com/trufflesuite/ganache-cli)
+1. Install the [Ganache CLI](https://github.com/trufflesuite/ganache-cli)
 
    ```
    npm install -g ganache-cli
    ```
-
-   ```
-   ganache-cli
-   ```
-
-   \*In `truffle-config.js`, ensure the details for the `development` network match up with your running Ganache instance.
 
 2. _Fork_ and mirror mainnet into your Ganache instance.
    You can fork mainnet and use each protocol's production contracts and production ERC20 tokens.
@@ -91,7 +85,7 @@ If your implementation is correct, then the transaction will succeed. If it fail
 
 # EOA Address
 
-We are using this EOA address `0xcc84e428b30ea976f932d77293df4ba8edd7307f` both in the Ropsten and Mainnet.
+We are using this EOA address `0xcc84e428b30ea976f932d77293df4ba8edd7307f`.
 
 # Token Addresses
 
